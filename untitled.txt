@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3; /* Light gray */
+  margin: 20px;
+}
+    header {
+  background-color: #ADD8E6; /* Light blue */
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+    button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Specific colors */
+.blue-btn {
+  background-color: #FF0000;
+}
+.blue-btn:hover {
+  background-color: #0056b3;
+}
+
+.red-btn {
+  background-color: #DC3545;
+}
+.red-btn:hover {
+  background-color: #a71d2a;
+}
+
+.yellow-btn {
+  background-color: #FFC107;
+  color: black;
+}
+.yellow-btn:hover {
+  background-color: #e0a800;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SPATIAL GLIDERS FC</h1>
+  </header>
+<section>
+  <p>
+    Spatial Gliders FC is more than just a football team -- it's a symbol of unity, resilience, and excellence at Dedan Kimathi University of Technology. Composed of passionate students who balance academic rigor with athletic brilliance, the Gliders bring energy and pride to every match. Known for their strategic play, poetic celebrations, and unwavering team spirit, they represent the heart of campus culture. Whether on the pitch or in the classroom, Spatial Gliders FC inspires a winning mindset and a legacy of leadership.
+  </p>
+</section>
+
+
+  <section>
+    <h2>Spatial image collection</h2>
+    <iframe src="https://photos.app.goo.gl/dGZJZ1vRZpDccPRW6" title="Longwei's Image"></iframe>
+    <p>If the image doesn't show, tap the link: <a href="https://photos.app.goo.gl/dGZJZ1vRZpDccPRW6" target="_blank">View Image</a></p>
+  </section>
+
+  <section>
+  <h2>Intrest</h2>
+  <iframe width="400" height="100" src="https://www.youtube.com/embed/qAdjcBbZDBs?autoplay=0" title="Leshao Leshao - MY HEART" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p>If the audio doesn't play, tap the link: <a href="https://www.youtube.com/watch?v=qAdjcBbZDBs" target="_blank">Listen on YouTube</a></p>
+</section>
+
+  <section>
+    <h2>video intrest</h2>
+    <iframe src="https://www.tiktok.com/embed/v2/ZMAHE2y1b/" width="400" height="600" allowfullscreen></iframe>
+    <p>If the video doesn't show, tap the link: <a href="https://vm.tiktok.com/ZMAHE2y1b/" target="_blank">Watch on TikTok</a></p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <button onclick="alert('Opening  Poster Project')">Poster Project</button>
+    <button onclick="alert('Opening Match Recap Project')">Match Recap Project</button>
+    <button onclick="alert('Opening Meme Creation Project')">Meme Creation Project</button>
+  </section>
+
+</body>
+</html>
